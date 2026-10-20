@@ -1,0 +1,21 @@
+# Môi trường ảo Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Dữ liệu & Cache (Tuyệt đối không đẩy lên Git)
+data/
+*.csv
+*.zip
+kaggle_cache/
+.cache/
+
+# File trọng số mô hình lớn
+saved_models/
+*.h5
+*.keras
+
+# Cấu hình IDE cá nhân
+.vscode/
+.idea/
