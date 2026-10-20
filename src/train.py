@@ -51,7 +51,7 @@ def main():
     # Bước 3: Huấn luyện mô hình
     history = model.fit(
         X_train, y_train,
-        epochs=10,
+        epochs=15,
         batch_size=64,
         validation_data=(X_cv, y_cv),
         callbacks=[checkpoint_cb]
@@ -84,4 +84,4 @@ def main():
     plt.show()
 
 if __name__ == "__main__":
-    main()
+    main()  
